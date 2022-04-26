@@ -1,5 +1,5 @@
 package com.cagriyilmaz.utils;
 
 public class PermaLink {
-    //GITHUB :
+    //GITHUB :https://github.com/cuneytcagriyilmaz/springFramework
 }
