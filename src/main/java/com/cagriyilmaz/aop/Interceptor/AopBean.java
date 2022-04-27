@@ -1,0 +1,19 @@
+package com.cagriyilmaz.aop.Interceptor;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+import java.io.Serializable;
+
+@Named(value = "aopInterceptor")
+@ApplicationScoped
+public class AopBean implements Serializable {
+    private static final Long serialVersionUID = 1L;
+
+    @Inject
+    private Login login;
+
+    public String getAopBeanm(){
+        return login.isLogingMethod("interceptop: yol kesici");
+    }
+}

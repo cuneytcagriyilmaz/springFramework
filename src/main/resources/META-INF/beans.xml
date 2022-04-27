@@ -5,9 +5,17 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+<!--    Alternative-->
     <alternatives>
         <class>
             com.cagriyilmaz.alternative.Patron1
         </class>
     </alternatives>
+
+<!--    Interceptor-->
+    <interceptors>
+        <class>
+            com.cagriyilmaz.aop.Interceptor.InterceptorYolKEsiciAsills
+        </class>
+    </interceptors>
 </beans>
