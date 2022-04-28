@@ -18,4 +18,9 @@
             com.cagriyilmaz.aop.Interceptor.InterceptorYolKEsiciAsills
         </class>
     </interceptors>
+
+<!--    decorators-->
+    <decorators>
+        <class>com.cagriyilmaz.aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
